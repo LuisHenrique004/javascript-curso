@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento de click</title>
+</head>
+<body>
+    <h1 id="titulo" onclick="console.log('clicou')" onmouseover="console.log('Passou o mouse')">Seja bem vindo</h1>
+
+    <!--Mudar o titulo h1 sem precisar do documento js-->
+    <button onclick="document.getElementById('titulo').innerHTML = 'Clicou'">Clique em mim</button> 
+
+    <!--Mudar o proprio botão-->
+    <button onclick="this.innerHTML = 'clicou'">Clique em mim</button>
+    
+    <!--o onclick funciona para qualquer tag-->
+
+    <script src="script.js"></script>
+</body>
+</html>
