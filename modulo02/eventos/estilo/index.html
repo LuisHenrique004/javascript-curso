@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <title>Evento de teclado</title>
+    <title>Estilos</title>
 </head>
 <body>
-    <h1 class="vermelho">Seja bem-vindo</h1>
+    <h1 id="titulo">Seja bem-vindo</h1>
 
-    <input onkeyup="digitou(event)" type="text" name="usuario" id="campo" placeholder="Nome do usuário">
+    <button onclick="azul()">Azul</button>
+    <button onclick="vermelho()">Vermelho</button>
+    <button onclick="verde()">Verde</button>
+
+    <div id="telefone">(87)9999-9999</div>
+    <button onclick="mostrarTelefone(this)">Mostrar Telefone</button>
 
     <script src="script.js"></script>
 </body>

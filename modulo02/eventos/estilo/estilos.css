@@ -1,15 +1,22 @@
 @charset "UTF-8";
 
-body {
-    background-color: white;
-}
-
 .azul {
-    color: white;
     background-color: blue;
+    color: white;
 }
 
 .vermelho {
     background-color: #FF0000;
     color: white;
+}
+
+.verde {
+    background-color: #00FF00;
+    color: black;
+}
+
+div#telefone {
+    display: none;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
