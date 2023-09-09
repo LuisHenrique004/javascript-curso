@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+}
+
+.azul {
+    color: white;
+    background-color: blue;
+}
+
+.vermelho {
+    background-color: #FF0000;
+    color: white;
+}
