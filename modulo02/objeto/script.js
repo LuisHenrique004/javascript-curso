@@ -31,3 +31,4 @@ let carrinhos = [
 ];
 
 console.log(carrinhos[2].modelo);
+console.log(carrinhos[3].modelo);
