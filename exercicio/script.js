@@ -39,8 +39,6 @@ let y = 10;
 let pct = calcPct(x, y);
 console.log(`${pct}% de ${x} é ${y}`);
 
-*/
-
 function calcularImovel(metragem, quartos) {
     let m2 = 3000;
     let preco = 0;
@@ -65,3 +63,22 @@ let metragem = 123;
 let quartos = 3;
 let preco = calcularImovel(metragem, quartos);
 console.log(`A casa custa R$ ${preco}`)
+
+*/
+
+function validar(usuario, senha) {
+    if (usuario === "pedro" && senha === "1234") {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+let usuario = "pedro";
+let senha = "1234";
+let validacao = validar(usuario, senha);
+if(validacao) {
+    console.log("Acesso concedido!")
+} else {
+    console.log("Acesso NEGADO!");
+}
