@@ -1,3 +1,5 @@
+/*
+
 let carro = "Ferrari";
 console.log(carro);
 
@@ -27,3 +29,14 @@ if (preco_carne <= 45.00) {
 } else {
     console.log(`A carne a ${preco_carne} está muito cara!`);
 }
+
+*/
+
+function calcPct(x, y) {
+    return ((y / x) * 100);
+}
+
+let x = 40;
+let y = 10;
+let pct = calcPct(x, y);
+console.log(`${pct}% de ${x} é ${y}`);
