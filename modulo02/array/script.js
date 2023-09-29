@@ -1,8 +1,23 @@
-//let carros = ['Palio', 'Uno', 'Corolla', 'Ferrari'];
+let colors = ["blue", "red", "green", "orange", "White"];
 
-let ingredientes = [
-    ['uva', 'pera', 'maçã'],
-    ['Arroz', 'macarrão']
-];
+let idade = [10, 20 ,30];
 
-console.log(ingredientes[1][0]);
+let lista = ["Algo", 30, "Luis", true, idade]
+
+
+//Operações basicas com Arrays
+let ingredientes = ["água", "farinha", "ovo", "corante", "sal"];
+
+//Função para adicionar elementos a lista
+ingredientes.push("cebola") 
+
+//Função para remover o ultimo item da lista
+ingredientes.pop()
+
+//Função para remover o primeiro item da lista
+ingredientes.shift()
+
+console.log(ingredientes);
+
+//função para ler a quantidade de itens na lista
+console.log(`Total de ingrediente: ${ingredientes.length}`) 
