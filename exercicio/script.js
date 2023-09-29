@@ -64,8 +64,6 @@ let quartos = 3;
 let preco = calcularImovel(metragem, quartos);
 console.log(`A casa custa R$ ${preco}`)
 
-*/
-
 function validar(usuario, senha) {
     if (usuario === "pedro" && senha === "1234") {
         return true;
@@ -82,3 +80,16 @@ if(validacao) {
 } else {
     console.log("Acesso NEGADO!");
 }
+
+*/
+
+let carros = ["BMW", "Ferrari", "Mercedes"];
+console.log(`1. ${carros[1]}`);
+
+carros[1] = "Audi";
+console.log(`2. Lista com Audi: ${carros}`)
+
+carros.push("Volvo")
+console.log(`3. Lista com Volvo: ${carros}`)
+
+console.log(carros.length);
