@@ -40,4 +40,30 @@ if(verificacao) {
     console.log("é menor de idade");
 }
 
+//Quando uma variavel dentro de uma função tem o mesmo nome que uma variavel global, a variavel "local" (dentro da função) tem mais "poder" que a variavel global.
+let count = 0;
+
+function add() {
+    let count = 0;
+    count += 10;
+}
+
+add();
+add();
+
+console.log(count);
+
 */
+
+
+//Função dentro de uma função
+function addSquares(a, b) {
+    
+    const square = x => x * x;
+      
+    let sqrA = square(a);
+    let sqrB = square(b);
+    return sqrA + sqrB;
+}
+
+console.log(addSquares(2,4))
