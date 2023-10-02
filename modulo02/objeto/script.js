@@ -1,3 +1,5 @@
+/*
+
 let carros = ['palio', 'uno', 'corolla', 'ferrari'];
 
 let carro = {
@@ -32,3 +34,16 @@ let carrinhos = [
 
 console.log(carrinhos[2].modelo);
 console.log(carrinhos[3].modelo);
+
+*/
+
+let personagem = {
+    nome: "Luis",
+    idade: 90,
+    pais: "Brasil",
+    olhos: ["preto", "azul"],
+    caracteristicas: {forca: 20, magia: 5, estamina: 15}
+}
+
+console.log(personagem.caracteristicas.forca);
+console.log(personagem.olhos[1]);
