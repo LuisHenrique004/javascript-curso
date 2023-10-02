@@ -35,7 +35,6 @@ let carrinhos = [
 console.log(carrinhos[2].modelo);
 console.log(carrinhos[3].modelo);
 
-*/
 
 let personagem = {
     nome: "Luis",
@@ -45,5 +44,25 @@ let personagem = {
     caracteristicas: {forca: 20, magia: 5, estamina: 15}
 }
 
-console.log(personagem.caracteristicas.forca);
-console.log(personagem.olhos[1]);
+
+personagem.caracteristicas.forca += 5;
+
+console.log(personagem.nome);
+console.log(`Força: ${personagem.caracteristicas.forca}`);
+
+personagem.olhos.push('verde');
+
+console.log(personagem.olhos)
+
+*/
+
+let personagem = {
+    nome: "Bonieky",
+    idade: 90,
+    carros: [
+        {modelo: 'Fiat', cor: 'Preto'},
+        {modelo: 'Ferrari', cor: 'Vermelho'}
+    ]
+}
+
+console.log(personagem.carros[0].cor);
