@@ -58,11 +58,15 @@ console.log(personagem.olhos)
 
 let personagem = {
     nome: "Bonieky",
+    sobrenome: "Levi",
     idade: 90,
     carros: [
         {modelo: 'Fiat', cor: 'Preto'},
         {modelo: 'Ferrari', cor: 'Vermelho'}
-    ]
+    ],
+    nomeCompleto: function() {
+        return `${this.nome} ${this.sobrenome}`;
+    }
 }
 
-console.log(personagem.carros[0].cor);
+console.log(personagem.nomeCompleto());
