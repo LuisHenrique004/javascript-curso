@@ -81,7 +81,7 @@ if(validacao) {
     console.log("Acesso NEGADO!");
 }
 
-*/
+// -------------------------------------
 
 let carros = ["BMW", "Ferrari", "Mercedes"];
 console.log(`1. ${carros[1]}`);
@@ -94,3 +94,20 @@ console.log(`3. Lista com Volvo: ${carros}`)
 
 console.log(carros.length);
 
+//-----------------------------------------
+
+let frutas = ['Maçã', 'Uva', 'Banana'];
+
+for (let i in frutas) {
+    console.log(frutas[i]);
+}
+
+
+let num = 1;
+
+while (num <= 100) {
+    console.log(`Contagem: ${num}`);
+    num++;
+};
+
+*/
