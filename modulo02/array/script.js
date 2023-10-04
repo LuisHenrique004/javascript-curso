@@ -21,3 +21,9 @@ console.log(ingredientes);
 
 //função para ler a quantidade de itens na lista
 console.log(`Total de ingrediente: ${ingredientes.length}`) 
+
+let frutas = ['Maçã', 'Uva', 'Laranja', 'Banana'];
+
+
+//Gera uma string com o separado que você escolhe
+console.log(frutas.join(', '));
