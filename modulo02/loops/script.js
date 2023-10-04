@@ -14,8 +14,19 @@ for (let i in cores) {
     console.log(`Cor: ${cores[i]}`);
 }
 
-*/
-
 for (let cor of cores) {
     console.log(`Cor: ${cor.nome} + Quantidade: ${cor.qt}`);
+}
+
+let num = 0;
+
+while (num < 10) {
+    console.log(`O número da vez é: ${num}`);
+    num++;
+}
+
+*/
+
+while(true) {
+    false;
 }
