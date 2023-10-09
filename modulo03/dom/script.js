@@ -1,7 +1,9 @@
-function criou() {
-    console.log("criou")
+function clicou() {
+    const teste = document.querySelector("#teste");
+    const ul = teste.querySelector("ul");
+    
+    
+    //outerHTML pega o conteudo de fora das tag
+    console.log(ul.outerHTML);
+    ul.outerHTML = "<strong>123</strong>"
 }
-
-let botao = document.querySelector("input");
-
-botao.addEventListener("click", () => criou())
