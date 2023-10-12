@@ -23,6 +23,19 @@ newLi.innerText = "Item adicionado";
 //adiciona no começo!
 ul.prepend(newLi);
 
+const newButton = document.createElement('button');
+newButton.innerHTML = "Botão";
+
 */
+
+let newUl = document.createElement('ul');
+
+for (let i = 0; i < 5; i++) {
+    let newLi = document.createElement('li');
+    newLi.innerHTML = "Item add " + i;
+    newUl.append(newLi);
+}
+
+ul.before(newUl);
 
 }
