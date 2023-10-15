@@ -26,8 +26,6 @@ ul.prepend(newLi);
 const newButton = document.createElement('button');
 newButton.innerHTML = "Botão";
 
-*/
-
 let newUl = document.createElement('ul');
 
 for (let i = 0; i < 5; i++) {
@@ -38,4 +36,31 @@ for (let i = 0; i < 5; i++) {
 
 ul.before(newUl);
 
+*/
+
+const input = document.querySelector("#idAlgo");
+const botao = document.querySelector('.botao');
+console.log(botao);
+console.log(input);
+console.log(input.getAttribute('placeHolder'));
+
+//Mostra se tem ou não placeholder
+if(input.hasAttribute('placeholder')) {
+    console.log('tem placeHolder nele!');
+} else {
+    console.log('não tem placeholder...');
 }
+
+
+//altera para visualizar e não visualizar a senha
+if(input.getAttribute('type') == 'text') {
+    input.setAttribute('type', 'password');
+    botao.value = "Mostrar Senha";
+} else {
+    input.setAttribute('type', 'text');
+    botao.value = "Ocultar Senha";
+}
+
+}
+
+
