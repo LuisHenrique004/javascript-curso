@@ -111,3 +111,27 @@ while (num <= 100) {
 };
 
 */
+
+//Exercicio - Lista de Tarefas Simples
+
+const lista = document.querySelector('ul');
+const campo = document.querySelector('#idAlgo');
+
+// Funções
+function handleKeyUp(e) {
+    if (e.key === "Enter") {
+        let newLi = document.createElement("li");
+        newLi.innerHTML = campo.value;
+        lista.appendChild(newLi);
+        campo.value = "";
+    }
+}
+
+// Eventos
+campo.addEventListener('keyup', handleKeyUp);
+
+
+
+
+
+
